@@ -8,4 +8,4 @@ In this project, I have made a backend of an e-commerce website using Express fr
 ## Installation process and Execution
 
 First and foremost, If you'are using Linux-based-OS, open your terminal and install the latest version of <b>NodeJS</b> and <b>npm</b>. You do also need to install <b>mysql</b> database onto your system. by writing the following commands. 
-This will install NodeJS version-12 and npm version-6 on your system.
+This will install <b>NodeJS version-12<b/> and <b>npm version-6</b> on your system.
