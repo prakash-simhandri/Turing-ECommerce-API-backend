@@ -15,3 +15,9 @@ This will install <b>NodeJS version-12</b> and <b>npm version-6</b> on your syst
    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
    sudo apt install nodejs
 ```
+Next, you've to install mysql-database onto your system. For this, write these following commands on your terminal. 
+
+```
+   sudo apt-get update
+   sudo apt-get install mysql-server
+```
