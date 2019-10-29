@@ -32,7 +32,7 @@ Next, navigate to the folder where, `server.js` file is located. You can start t
 You can always kill your running port by writing, `killall -9 node` on the terminal. <br>
 Now, you need to install postman, that helps you to develop APIs and getting responses from it, by writing the following commands on your terminal.
 ```
-$ sudo apt-get install snap
-$ snap install postman
+ sudo apt-get install snap
+ snap install postman
 ```
 ## Happy Coding :)
