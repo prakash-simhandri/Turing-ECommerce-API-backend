@@ -3,3 +3,9 @@
 In this project, I have made a backend of an e-commerce website using Express framework of NodeJS.Here's the [swagger](https://backendapi.turing.com/docs/),but you need to pass the test for it first [here](https://developers.turing.com/dashboard/challenge).
 
   I have also used JWT-authentication token to verify the if the customer is valid or not. We are already given the mysql-database in which there are different tables and their data. We've to write different queries for different endpoints to make them working.
+
+## The Requirements
+## Installation process and Execution
+
+First and foremost, If you'are using Linux-based-OS, open your terminal and install the latest version of <b>NodeJS</b> and <b>npm</b>. You do also need to install <b>mysql</b> database onto your system. by writing the following commands. 
+This will install NodeJS version-12 and npm version-6 on your system.
