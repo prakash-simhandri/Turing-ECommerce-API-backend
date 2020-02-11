@@ -24,53 +24,53 @@ const knex = require('knex')({
 
 var attributes = express.Router();
 app.use("/", attributes);
-require("./routes/attributes")(attributes,knex);
+require("./project/controllers/attributes")(attributes,knex);
 
 // get products data
 
 var products = express.Router();
 app.use("/", products);
-require("./routes/products")(products,knex,jwt,Secretkey_Key)
+require("./project/controllers/products")(products,knex,jwt,Secretkey_Key)
 
 // get departments data
 var department = express.Router();
 app.use("/", department);
-require("./routes/departments")(department,knex);  
+require("./project/controllers/departments")(department,knex);  
 
 // get categories
 var category = express.Router();
 app.use("/", category);
-require("./routes/categories")(category,knex);
+require("./project/controllers/categories")(category,knex);
 
 //  get customers
 
 var Customer = express.Router();
 app.use("/" ,Customer);
-require("./routes/customers")(Customer,jwt,knex,Secretkey_Key);
+require("./project/controllers/customers")(Customer,jwt,knex,Secretkey_Key);
 
 // get Oders data
 
 var Oders = express.Router();
 app.use("/",Oders);
-require("./routes/oders")(Oders,jwt,knex,Secretkey_Key)
+require("./project/controllers/oders")(Oders,jwt,knex,Secretkey_Key)
 
 // get Shoppingcart data
 
 var Shoppingcart = express.Router();
 app.use("/", Shoppingcart);
-require("./routes/shoppingcart")(Shoppingcart,knex);
+require("./project/controllers/shoppingcart")(Shoppingcart,knex);
 
 // get Tax data
 
 var Tax = express.Router();
 app.use("/", Tax);
-require("./routes/tax")(Tax,knex)
+require("./project/controllers/tax")(Tax,knex)
 
 // get shipping data
 
 var Shipping = express.Router();
 app.use("/",Shipping);
-require("./routes/shipping")(Shipping,knex)
+require("./project/controllers/shipping")(Shipping,knex)
 
 app.listen(process.env.A_Port)
 console.log('success......')
